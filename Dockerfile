@@ -11,5 +11,4 @@ RUN mkdir -p /torrents/session \
 RUN chown -R user:user /home/user
 
 USER user
-CMD ["rtorrent", "-D", "FOREGROUND"]
-
+CMD ["rtorrent","-D","FOREGROUND"]
